@@ -3,6 +3,7 @@ package com.example.whatsapp.Fragments;
 import android.os.Bundle;
 
 import androidx.annotation.NonNull;
+import androidx.appcompat.app.ActionBar;
 import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
@@ -28,6 +29,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class ChatsFragment extends Fragment {
+
 
     private UserAdapter userAdapter;
     private List<Users> mUsers;

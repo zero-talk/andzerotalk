@@ -36,9 +36,11 @@
         style="@style/Widget.Neumorph.CardView"
         android:layout_width="match_parent"
         android:layout_height="80dp"
-        android:layout_marginStart="20dp"
-        android:layout_marginTop="10dp"
-        android:layout_marginEnd="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView"
         app:neumorph_shapeType="flat">
 
@@ -64,9 +66,10 @@
         style="@style/Widget.Neumorph.CardView"
         android:layout_width="match_parent"
         android:layout_height="80dp"
-        android:layout_marginStart="20dp"
-        android:layout_marginTop="10dp"
-        android:layout_marginEnd="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/register_nick_form"
         app:neumorph_shapeType="flat">
 
@@ -92,9 +95,10 @@
         style="@style/Widget.Neumorph.CardView"
         android:layout_width="match_parent"
         android:layout_height="80dp"
-        android:layout_marginStart="20dp"
-        android:layout_marginTop="10dp"
-        android:layout_marginEnd="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/register_email_form"
         app:neumorph_shapeType="flat">
 

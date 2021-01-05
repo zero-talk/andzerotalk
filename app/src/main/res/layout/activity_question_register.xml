@@ -30,10 +30,19 @@
         android:textSize="25dp" />
 
     <TextView
+        android:id="@+id/textView12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-12dp"
+        android:text="여러분의 프로필 창을 꾸며주는 취향 문답입니다."
+        android:textAlignment="center"
+        android:textColor="@color/greytext" />
+
+    <TextView
         android:id="@+id/profile_question_1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="25dp"
         android:layout_marginBottom="0dp"
         android:fontFamily="sans-serif"
         android:text="1. 당신이 가장 좋아하는 색은?"
@@ -47,7 +56,6 @@
         android:layout_width="match_parent"
         android:layout_height="80dp"
         android:layout_marginStart="50dp"
-        android:layout_marginTop="0dp"
         android:layout_marginEnd="50dp"
         android:layout_marginBottom="2dp"
         app:layout_constraintTop_toBottomOf="@+id/textView"
@@ -61,7 +69,7 @@
             android:background="@drawable/no_background"
             android:fontFamily="@font/notolight"
             android:inputType="textPersonName"
-            android:paddingLeft="20dp"
+            android:paddingLeft="25dp"
             android:paddingEnd="10dp"
             android:textCursorDrawable="@drawable/cursor" />
 
@@ -84,7 +92,6 @@
         android:layout_width="match_parent"
         android:layout_height="80dp"
         android:layout_marginStart="50dp"
-        android:layout_marginTop="0dp"
         android:layout_marginEnd="50dp"
         android:layout_marginBottom="2dp"
         app:layout_constraintTop_toBottomOf="@+id/textView"
@@ -98,7 +105,7 @@
             android:background="@drawable/no_background"
             android:fontFamily="@font/notolight"
             android:inputType="textPersonName"
-            android:paddingLeft="20dp"
+            android:paddingLeft="25dp"
             android:paddingEnd="10dp"
             android:textCursorDrawable="@drawable/cursor" />
 
@@ -121,7 +128,6 @@
         android:layout_width="match_parent"
         android:layout_height="80dp"
         android:layout_marginStart="50dp"
-        android:layout_marginTop="0dp"
         android:layout_marginEnd="50dp"
         android:layout_marginBottom="2dp"
         app:layout_constraintTop_toBottomOf="@+id/textView"
@@ -135,6 +141,7 @@
             android:background="@drawable/no_background"
             android:fontFamily="@font/notolight"
             android:inputType="textPersonName"
+            android:paddingLeft="25dp"
             android:paddingEnd="10dp"
             android:textCursorDrawable="@drawable/cursor" />
 
@@ -153,6 +160,7 @@
             style="@style/Widget.AppCompat.Button.Borderless"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
             android:layout_marginRight="5dp"
             android:layout_weight="1"
             android:fontFamily="@font/notomedium"
@@ -165,6 +173,7 @@
             style="@style/Widget.Neumorph.Button"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_marginRight="50dp"
             android:layout_weight="1"
             android:fontFamily="sans-serif-medium"
             android:text="다음으로"

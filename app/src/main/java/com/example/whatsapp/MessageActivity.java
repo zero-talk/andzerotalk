@@ -2,6 +2,7 @@ package com.example.whatsapp;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.RequiresApi;
+import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
@@ -63,6 +64,9 @@ public class MessageActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_message);
+
+        ActionBar actionBar = getSupportActionBar();
+        actionBar.hide();
 
         //유저 프로필, 유저이름
         imageView = findViewById(R.id.imageview_profile);
