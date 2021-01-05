@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal|center_vertical"
+    android:orientation="vertical"
+    tools:context=".QuestionRegisterActivity">
+
+    <TextView
+        android:id="@+id/textView_question"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginBottom="10dp"
+        android:text="당신에 대해 알려주세요"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/profile_question_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="당신이 가장 좋아하는 색은?"
+        android:layout_marginBottom="10dp"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/pro_q1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:ems="10"
+        android:hint="좋아하는 색"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/profile_question_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="당신이 가장 좋아하는 음식은?"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/pro_q2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:ems="10"
+        android:hint="좋아하는 음식"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/profile_question_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="당신이 자주 듣는 음악은?"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/pro_q3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:ems="10"
+        android:hint="좋아하는 음악"
+        android:inputType="textPersonName" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
+        android:layout_marginBottom="6dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button_skip_question"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="나중에 하기" />
+
+        <View
+            android:id="@+id/view"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/button_question_register"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="시작하기" />
+    </LinearLayout>
+</LinearLayout>

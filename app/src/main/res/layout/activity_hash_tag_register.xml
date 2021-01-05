@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="#fff"
+    android:orientation="vertical">
+
+    <View
+        android:id="@+id/topView2"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="@drawable/ic_bg_main" />
+
+    <TextView
+        android:id="@+id/textView_hashmain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="clip_horizontal|center"
+        android:layout_marginTop="-20dp"
+        android:fontFamily="sans-serif"
+        android:text="당신의 관심사는?"
+        android:textAlignment="center"
+        android:textColor="@color/lightmajor"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView_hashsub"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/notolight"
+        android:text="제로톡에서 나누고 싶은 \n 주제 3가지를 선택해 주세요."
+        android:textAlignment="center"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:padding="5dp">
+
+        <CheckBox
+            android:id="@+id/love_hash"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/custom_check_box"
+            android:button="@drawable/custom_check_box"
+            android:fontFamily="@font/notolight"
+            android:paddingLeft="12dp"
+            android:paddingRight="12dp"
+            android:text="#연애"
+            android:textSize="20dp" />
+
+        <CheckBox
+            android:id="@+id/zip_hash"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/custom_check_box"
+            android:button="@drawable/custom_check_box"
+            android:fontFamily="@font/notolight"
+            android:paddingLeft="12dp"
+            android:paddingRight="12dp"
+            android:text="#집콕"
+            android:textSize="20dp" />
+
+
+        <CheckBox
+            android:id="@+id/music_hash"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custom_check_box"
+            android:button="@drawable/custom_check_box"
+            android:fontFamily="@font/notolight"
+            android:paddingLeft="12dp"
+            android:paddingRight="12dp"
+            android:text="#음악감상"
+            android:textSize="20dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:padding="5dp">
+
+        <CheckBox
+            android:id="@+id/movie_hash"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custom_check_box"
+            android:button="@drawable/custom_check_box"
+            android:fontFamily="@font/notolight"
+            android:paddingLeft="12dp"
+            android:paddingRight="12dp"
+            android:text="#영화"
+            android:textSize="20dp" />
+
+        <CheckBox
+            android:id="@+id/food_hash"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/custom_check_box"
+            android:button="@drawable/custom_check_box"
+            android:fontFamily="@font/notolight"
+            android:paddingLeft="12dp"
+            android:paddingRight="12dp"
+            android:text="#맛집탐방"
+            android:textSize="20dp" />
+
+        <CheckBox
+            android:id="@+id/drama_hash"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custom_check_box"
+            android:button="@drawable/custom_check_box"
+            android:fontFamily="@font/notolight"
+            android:paddingLeft="12dp"
+            android:paddingRight="5dp"
+            android:text="#드라마"
+            android:textSize="20dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:padding="5dp">
+
+        <CheckBox
+            android:id="@+id/mbti_hash"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custom_check_box"
+            android:button="@drawable/custom_check_box"
+            android:fontFamily="@font/notolight"
+            android:paddingLeft="12dp"
+            android:paddingRight="12dp"
+            android:text="#MBTI"
+            android:textSize="20dp" />
+
+        <CheckBox
+            android:id="@+id/outdoor_hash"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/custom_check_box"
+            android:button="@drawable/custom_check_box"
+            android:fontFamily="@font/notolight"
+            android:paddingLeft="12dp"
+            android:paddingRight="12dp"
+            android:text="#실외취미"
+            android:textSize="20dp" />
+
+        <CheckBox
+            android:id="@+id/indoor_hash"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custom_check_box"
+            android:button="@drawable/custom_check_box"
+            android:fontFamily="@font/notolight"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:text="#실내취미"
+            android:textSize="20dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:gravity="center_horizontal"
+        android:padding="5dp">
+
+        <CheckBox
+            android:id="@+id/sport_hash"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custom_check_box"
+            android:button="@drawable/custom_check_box"
+            android:fontFamily="@font/notolight"
+            android:paddingLeft="12dp"
+            android:paddingRight="12dp"
+            android:text="#운동"
+            android:textSize="20dp" />
+
+        <CheckBox
+            android:id="@+id/esports_hash"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/custom_check_box"
+            android:button="@drawable/custom_check_box"
+            android:fontFamily="@font/notolight"
+            android:paddingLeft="12dp"
+            android:paddingRight="12dp"
+            android:text="#E-Sports"
+            android:textSize="20dp" />
+
+        <CheckBox
+            android:id="@+id/cook_hash"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custom_check_box"
+            android:button="@drawable/custom_check_box"
+            android:fontFamily="@font/notolight"
+            android:paddingLeft="12dp"
+            android:paddingRight="12dp"
+            android:text="#요리"
+            android:textSize="20dp" />
+
+
+    </LinearLayout>
+
+    <soup.neumorphism.NeumorphButton
+        android:id="@+id/button_hastag_register"
+        style="@style/Widget.Neumorph.Button"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/lightmajor"
+        android:fontFamily="sans-serif-black"
+        android:text="시작하기"
+        android:textColor="@color/major"
+        android:textSize="16dp" />
+
+</LinearLayout>
