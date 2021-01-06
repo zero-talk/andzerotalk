@@ -111,24 +111,24 @@ public class MessageActivity extends AppCompatActivity {
             }
         });
 
-
-        View.OnClickListener listener = new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                // 다이얼로그
-                AlertDialog.Builder builder = new AlertDialog.Builder(MessageActivity.this);
-                builder.setTitle("상대방 프로필 보기");
-//                builder.setIcon(R.mipmap.ic_launcher);
-                LayoutInflater inflater = getLayoutInflater();
-                builder.setView(R.layout.fragment_profile);
-
-//                builder.setNeutralButton("취소", listener);
-                builder.show();
-
-            }
-        };
-        imageView.setOnClickListener(listener);
-        username.setOnClickListener(listener);
+//
+//        View.OnClickListener listener = new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                // 다이얼로그
+//                AlertDialog.Builder builder = new AlertDialog.Builder(MessageActivity.this);
+//                builder.setTitle("상대방 프로필 보기");
+////                builder.setIcon(R.mipmap.ic_launcher);
+//                LayoutInflater inflater = getLayoutInflater();
+//                builder.setView(R.layout.fragment_profile);
+//
+////                builder.setNeutralButton("취소", listener);
+//                builder.show();
+//
+//            }
+//        };
+//        imageView.setOnClickListener(listener);
+//        username.setOnClickListener(listener);
 
 
 
