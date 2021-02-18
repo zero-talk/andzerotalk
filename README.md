@@ -1,4 +1,4 @@
-# andzerotalk
+# Zero-Talk
 
 해시태그 필터 채팅앱 
 
@@ -14,7 +14,7 @@
 2. App 컨셉
 숫자 0(zero) 와 채팅 메시지 창 이미지를 합쳐 제로톡 LOGO 제작
 처음 만난 사람과 제로(0)부터 대화와 만남의 연을 시작한다는 의미
-<img src="https://user-images.githubusercontent.com/75350289/108331102-c3356900-7211-11eb-96fc-d9f9deb00778.png" />
+<img src="https://user-images.githubusercontent.com/75350289/108331188-da745680-7211-11eb-85be-d5a5b5b70b1b.png" />
 
 
 ---
