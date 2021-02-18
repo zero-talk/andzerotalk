@@ -11,13 +11,13 @@
 ---
 
 
-2. App 컨셉
-숫자 0(zero) 와 채팅 메시지 창 이미지를 합쳐 제로톡 LOGO 제작
+2. App 컨셉 </br>
+숫자 0(zero) 와 채팅 메시지 창 이미지를 합쳐 제로톡 LOGO 제작   
 처음 만난 사람과 제로(0)부터 대화와 만남의 연을 시작한다는 의미
 <img src="https://user-images.githubusercontent.com/75350289/108331188-da745680-7211-11eb-85be-d5a5b5b70b1b.png" />
 
 
 ---
 
-3. 주요 개발 도구 및 기능
+3. 주요 개발 도구 및 기능 </br>
 <img src="https://user-images.githubusercontent.com/75350289/108330801-63d75900-7211-11eb-8d24-59128952ab69.png"/>
