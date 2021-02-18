@@ -2,6 +2,7 @@
 
 해시태그 필터 채팅앱 
 
+</br>
 1. 개발 동기
  - 모바일 메신저를 통한 소통의 증가 및 인식 변화
  - 워라벨에 대한 관심 증대로 취미를 즐기는 사람들의 플랫폼 필요
@@ -20,4 +21,4 @@
 ---
 
 3. 주요 개발 도구 및 기능 </br>
-<img src="https://user-images.githubusercontent.com/75350289/108330801-63d75900-7211-11eb-8d24-59128952ab69.png"/>
+<img src="https://user-images.githubusercontent.com/75350289/108331367-0abbf500-7212-11eb-8add-da3a9702c3a9.png"/>
